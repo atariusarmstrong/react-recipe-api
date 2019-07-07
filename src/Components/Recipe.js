@@ -4,7 +4,7 @@ class Recipe extends Component {
     render() {
         return (
             <div>
-                Recipe Here
+                {this.props.recipe}
             </div>
         );
     }
