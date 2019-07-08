@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Searcher from './Components/Searcher';
 import Recipe from './Components/Recipe';
@@ -27,7 +26,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div className="App">
+      <div>
         <Searcher 
           search={this.state.search}
           handleChange={this.handleChange}
